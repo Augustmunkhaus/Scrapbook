@@ -1,0 +1,6 @@
+C:\Users\August\RiderProjects\ScrapBook\Scrapbook\obj\Debug\net7.0\ScrapBook.csproj.AssemblyReference.cache
+C:\Users\August\RiderProjects\ScrapBook\Scrapbook\obj\Debug\net7.0\ScrapBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\August\RiderProjects\ScrapBook\Scrapbook\obj\Debug\net7.0\ScrapBook.AssemblyInfoInputs.cache
+C:\Users\August\RiderProjects\ScrapBook\Scrapbook\obj\Debug\net7.0\ScrapBook.AssemblyInfo.cs
+C:\Users\August\RiderProjects\ScrapBook\Scrapbook\obj\Debug\net7.0\ScrapBook.csproj.CoreCompileInputs.cache
+C:\Users\August\RiderProjects\ScrapBook\Scrapbook\obj\Debug\net7.0\ScrapBook.MvcApplicationPartsAssemblyInfo.cache

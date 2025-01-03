@@ -1,0 +1,23 @@
+@using ScrapBook.Services
+@page "/Addjourney"
+
+<PageTitle>Addjourney</PageTitle>
+
+@inject IJourneyService JourneyService
+
+<h3>Add a New Journey</h3>
+
+<EditForm Model="@newJourney" OnValidSubmit="HandleValidSubmit">
+    <!-- Form fields go here -->
+    <button type="submit">Create Journey</button>
+</EditForm>
+
+@code {
+    private Journey newJourney = new Journey();
+
+    private async Task HandleValidSubmit()
+    {
+        await JourneyService.CreateJourneyAsync(newJourney);
+        // Redirect or show success message
+    }
+}
