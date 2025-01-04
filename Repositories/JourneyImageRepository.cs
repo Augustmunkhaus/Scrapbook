@@ -17,4 +17,9 @@ public class JourneyImageRepository
             .Where(img => img.JourneyId == journeyId)
             .ToListAsync();
     }
+    public async Task AddAsync(JourneyImage image)
+    {
+        _context.JourneyImages.Add(image); // Add the image to the DbSet
+        await _context.SaveChangesAsync(); // Save changes to the database
+    }
 }

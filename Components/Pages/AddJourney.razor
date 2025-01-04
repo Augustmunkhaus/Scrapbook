@@ -1,23 +1,83 @@
+@page "/AddJourney"
 @using ScrapBook.Services
-@page "/Addjourney"
-
-<PageTitle>Addjourney</PageTitle>
-
 @inject IJourneyService JourneyService
+@inject NavigationManager NavigationManager
 
 <h3>Add a New Journey</h3>
 
-<EditForm Model="@newJourney" OnValidSubmit="HandleValidSubmit">
-    <!-- Form fields go here -->
-    <button type="submit">Create Journey</button>
+<EditForm Model="NewJourney" OnValidSubmit="HandleValidSubmit" FormName="AddJourneyForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="title">Title</label>
+        <InputText id="title" @bind-Value="NewJourney.Title" class="form-control" />
+    </div>
+
+    <div>
+        <label for="text">Text</label>
+        <InputTextArea id="text" @bind-Value="NewJourney.Text" class="form-control" />
+    </div>
+
+    <div>
+        <label for="date">Date</label>
+        <InputDate id="date" @bind-Value="NewJourney.Date" class="form-control" />
+    </div>
+
+    <div>
+        <label for="images">Upload Images</label>
+        <InputFile OnChange="HandleFileUpload" multiple />
+        <ul>
+            @foreach (var file in UploadedFiles)
+            {
+                <li>@file.Name</li>
+            }
+        </ul>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Journey</button>
 </EditForm>
 
 @code {
-    private Journey newJourney = new Journey();
+    private Journey NewJourney = new Journey();
+    private List<IBrowserFile> UploadedFiles = new List<IBrowserFile>();
+
+    private async Task HandleFileUpload(InputFileChangeEventArgs e)
+    {
+        UploadedFiles.AddRange(e.GetMultipleFiles());
+    }
 
     private async Task HandleValidSubmit()
     {
-        await JourneyService.CreateJourneyAsync(newJourney);
-        // Redirect or show success message
+        // debug
+        Console.WriteLine($"-----------------------------------------------------------" +
+                          $"-----------------------------------------------------" +
+                          $"----------------------------------------------------" +
+                          $"Title: {NewJourney.Title}, Text: {NewJourney.Text}, Date: {NewJourney.Date}");
+        
+        // Add images to the journey
+        foreach (var file in UploadedFiles)
+        {
+            var uniqueFileName = $"{Guid.NewGuid()}-{file.Name}";
+            var path = Path.Combine("wwwroot/uploads", uniqueFileName);
+
+            // Save file to disk
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                await file.OpenReadStream().CopyToAsync(stream);
+            }
+
+            // Add the image to the journey's image list
+            NewJourney.Images.Add(new JourneyImage
+            {
+                ImagePath = $"/uploads/{uniqueFileName}"
+            });
+        }
+
+        // Save the journey and its images to the database
+        await JourneyService.AddJourneyAsync(NewJourney);
+
+        // Redirect or show a success message
+        NavigationManager.NavigateTo("/view-journeys");
     }
 }

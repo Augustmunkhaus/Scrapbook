@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hhzz68YBxTg=",
+  "dgSpecHash": "XjE2SE04DP0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\ScrapBook.csproj",
+  "projectFilePath": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\ScrapBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\August\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\August\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

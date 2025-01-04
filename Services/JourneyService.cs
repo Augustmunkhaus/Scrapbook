@@ -23,10 +23,21 @@ public class JourneyService : IJourneyService
         return await _journeyRepository.GetByIdAsync(id);
     }
     
-    public async Task CreateJourneyAsync(Journey journey)
+    public async Task AddJourneyAsync(Journey journey)
     {
-        // Business logic can go here, e.g., validation
+        foreach (var image in journey.Images)
+        {
+            image.Journey = journey; // Link images to the journey
+        }
+        //debug
+        Console.WriteLine($"Saving Journey: Title={journey.Title}, Text={journey.Text}");
+        
         await _journeyRepository.AddAsync(journey);
+
+        foreach (var image in journey.Images)
+        {
+            await _journeyImageRepository.AddAsync(image);
+        }
     }
     
     public async Task UpdateJourneyAsync(Journey journey)
