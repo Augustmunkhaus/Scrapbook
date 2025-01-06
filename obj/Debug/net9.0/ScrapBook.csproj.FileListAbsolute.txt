@@ -10,6 +10,7 @@ C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\ScrapBook.pdb
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Humanizer.dll
+C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.AspNetCore.Components.WebAssembly.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.Build.Locator.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
@@ -35,6 +36,7 @@ C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.Ide
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\bin\Debug\net9.0\Mono.TextTemplating.dll

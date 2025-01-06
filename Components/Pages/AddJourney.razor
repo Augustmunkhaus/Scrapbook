@@ -2,6 +2,7 @@
 @using ScrapBook.Services
 @inject IJourneyService JourneyService
 @inject NavigationManager NavigationManager
+@rendermode InteractiveServer
 
 <h3>Add a New Journey</h3>
 
@@ -34,8 +35,12 @@
             }
         </ul>
     </div>
+    
+    <button type="button" @onclick="LogJourneyState">Log Journey State</button>
 
     <button type="submit" class="btn btn-primary">Add Journey</button>
+    <button type="button" @onclick="TestClick">Click Me</button>
+
 </EditForm>
 
 @code {
@@ -46,14 +51,23 @@
     {
         UploadedFiles.AddRange(e.GetMultipleFiles());
     }
+    
+    private void LogJourneyState()
+    {
+        Console.WriteLine($"Logging: Title={NewJourney.Title}, Text={NewJourney.Text}, Date={NewJourney.Date}");
+    }
+    private void TestClick()
+    {
+        Console.WriteLine("Button was clicked!");
+    }
 
     private async Task HandleValidSubmit()
     {
         // debug
-        Console.WriteLine($"-----------------------------------------------------------" +
-                          $"-----------------------------------------------------" +
-                          $"----------------------------------------------------" +
-                          $"Title: {NewJourney.Title}, Text: {NewJourney.Text}, Date: {NewJourney.Date}");
+        Console.WriteLine($"NewJourney Reference: {NewJourney.GetHashCode()}");
+        Console.WriteLine($"Title: {NewJourney.Title}, Text: {NewJourney.Text}, Date: {NewJourney.Date}");
+        
+        
         
         // Add images to the journey
         foreach (var file in UploadedFiles)
@@ -73,11 +87,12 @@
                 ImagePath = $"/uploads/{uniqueFileName}"
             });
         }
-
+        
+        
         // Save the journey and its images to the database
         await JourneyService.AddJourneyAsync(NewJourney);
 
-        // Redirect or show a success message
+        // Redirect to view journeys
         NavigationManager.NavigateTo("/view-journeys");
     }
 }

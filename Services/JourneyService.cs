@@ -2,25 +2,17 @@ using ScrapBook.Repositories;
 
 namespace ScrapBook.Services;
 
-public class JourneyService : IJourneyService
+public class JourneyService(JourneyRepository journeyRepository, JourneyImageRepository journeyImageRepository) : IJourneyService
 {
-    private readonly JourneyRepository _journeyRepository;
-    private readonly JourneyImageRepository _journeyImageRepository;
-    
-    public JourneyService(JourneyRepository journeyRepository, JourneyImageRepository journeyImageRepository)
-    {
-        _journeyRepository = journeyRepository;
-        _journeyImageRepository = journeyImageRepository;
-    }
     
     public async Task<List<Journey>> GetAllJourneysAsync()
     {
-        return await _journeyRepository.GetAllAsync();
+        return await journeyRepository.GetAllAsync();
     }
     
     public async Task<Journey> GetJourneyByIdAsync(int id)
     {
-        return await _journeyRepository.GetByIdAsync(id);
+        return await journeyRepository.GetByIdAsync(id);
     }
     
     public async Task AddJourneyAsync(Journey journey)
@@ -32,23 +24,23 @@ public class JourneyService : IJourneyService
         //debug
         Console.WriteLine($"Saving Journey: Title={journey.Title}, Text={journey.Text}");
         
-        await _journeyRepository.AddAsync(journey);
+        await journeyRepository.AddAsync(journey);
 
         foreach (var image in journey.Images)
         {
-            await _journeyImageRepository.AddAsync(image);
+            await journeyImageRepository.AddAsync(image);
         }
     }
     
     public async Task UpdateJourneyAsync(Journey journey)
     {
         // Additional business logic could go here
-        await _journeyRepository.UpdateAsync(journey);
+        await journeyRepository.UpdateAsync(journey);
     }
     
     public async Task DeleteJourneyAsync(int id)
     {
-        await _journeyRepository.DeleteAsync(id);
+        await journeyRepository.DeleteAsync(id);
     }
     
 }
