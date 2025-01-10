@@ -1,19 +1,31 @@
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace ScrapBook.Repositories;
-
-public class JourneyImageRepository(AppDbContext context)
+namespace ScrapBook.Repositories
 {
-    
-    public async Task<List<JourneyImage>> GetImagesByJourneyIdAsync(int journeyId)
+    public class JourneyImageRepository : IJourneyImageRepository
     {
-        return await context.JourneyImages
-            .Where(img => img.JourneyId == journeyId)
-            .ToListAsync();
-    }
-    public async Task AddAsync(JourneyImage image)
-    {
-        context.JourneyImages.Add(image); // Add the image to the DbSet
-        await context.SaveChangesAsync(); // Save changes to the database
+        private readonly AppDbContext _context;
+
+        public JourneyImageRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<List<JourneyImage>> GetImagesByJourneyIdAsync(int journeyId)
+        {
+            return await _context.JourneyImages
+                .Where(img => img.JourneyId == journeyId)
+                .ToListAsync();
+        }
+
+        public async Task AddAsync(JourneyImage image)
+        
+        {
+            _context.JourneyImages.Add(image);
+            await _context.SaveChangesAsync();
+        }
     }
 }

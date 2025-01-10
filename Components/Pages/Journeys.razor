@@ -1,5 +1,59 @@
-@page "/Journeys"
+@page "/View-Journeys"
+@using ScrapBook.Repositories
+@inject IJourneyRepository JourneyRepository
 
 <PageTitle>Journeys</PageTitle>
 
 <h1>My journeys</h1>
+
+@if (journeys == null || journeys.Count == 0)
+{
+    <p>No Journeys</p>
+}
+else
+{
+@foreach (var Journey in journeys)
+{
+    <div>
+        
+        <h2>Title: @Journey.Title</h2><br/>
+        <p>Text: @Journey.Text</p><br/>
+        <p>Date: @Journey.Date.ToShortDateString()</p><br/>
+            
+        @if (Journey.Images.Count > 0)
+        {
+            <div class="images">
+                @foreach (var image in Journey.Images)
+                {
+                    <p>Image Path: @image.ImagePath</p> <!-- For debugging -->
+                    <img src="@image.ImagePath" alt="Image for journey" />
+                    //<img src="@image.ImagePath" alt="Image for @Journey.Title" style="max-width:200px; max-height:200px; margin:10px;" />
+                }
+            </div>
+        }
+        else
+        {
+        <p>No images added for this journey</p>
+        }
+    </div>
+    <hr/>
+}
+}
+
+@code{
+    private List<Journey> journeys;
+
+    protected override async Task OnInitializedAsync()
+    {
+        journeys = await JourneyRepository.GetAllAsync();
+
+        foreach (var journey in journeys)
+        {
+            // Optionally, load images if not automatically included
+            if (journey.Images == null)
+            {
+                journey.Images = new List<JourneyImage>(); // Ensure images collection is not null
+            }
+        }
+    }
+}

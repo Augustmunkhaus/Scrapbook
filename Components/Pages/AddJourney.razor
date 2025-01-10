@@ -1,6 +1,7 @@
 @page "/AddJourney"
-@using ScrapBook.Services
-@inject IJourneyService JourneyService
+@using ScrapBook.Repositories
+@inject IJourneyImageRepository JourneyImageRepository
+@inject IJourneyRepository JourneyRepository
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
 
@@ -63,12 +64,6 @@
 
     private async Task HandleValidSubmit()
     {
-        // debug
-        Console.WriteLine($"NewJourney Reference: {NewJourney.GetHashCode()}");
-        Console.WriteLine($"Title: {NewJourney.Title}, Text: {NewJourney.Text}, Date: {NewJourney.Date}");
-        
-        
-        
         // Add images to the journey
         foreach (var file in UploadedFiles)
         {
@@ -88,11 +83,15 @@
             });
         }
         
+        // gem
+        await JourneyRepository.AddAsync(NewJourney);
         
-        // Save the journey and its images to the database
-        await JourneyService.AddJourneyAsync(NewJourney);
-
-        // Redirect to view journeys
+        // reset
+        NewJourney = new Journey();
+        UploadedFiles.Clear();
+        
+        // Redirect
         NavigationManager.NavigateTo("/view-journeys");
+        
     }
 }

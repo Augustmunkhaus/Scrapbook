@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ScrapBook.Components;
 using ScrapBook.Repositories;
-using ScrapBook.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,8 +15,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<JourneyRepository>();
 builder.Services.AddScoped<JourneyImageRepository>();
-builder.Services.AddScoped<IJourneyService, JourneyService>();
-
+builder.Services.AddScoped<IJourneyRepository, JourneyRepository>();
+builder.Services.AddScoped<IJourneyImageRepository, JourneyImageRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,7 +29,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
+app.UseStaticFiles();
 app.UseAntiforgery();
 
 app.MapStaticAssets();
