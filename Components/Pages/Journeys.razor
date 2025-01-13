@@ -25,9 +25,7 @@ else
             <div class="images">
                 @foreach (var image in Journey.Images)
                 {
-                    <p>Image Path: @image.ImagePath</p> <!-- For debugging -->
-                    <img src="@image.ImagePath" alt="Image for journey" />
-                    //<img src="@image.ImagePath" alt="Image for @Journey.Title" style="max-width:200px; max-height:200px; margin:10px;" />
+                    <img src="@image.ImagePath" alt="Image for @Journey.Title" style="max-width:200px; max-height:200px; margin:10px;" />
                 }
             </div>
         }

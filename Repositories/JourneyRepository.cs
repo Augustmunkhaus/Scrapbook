@@ -15,7 +15,10 @@ namespace ScrapBook.Repositories
         
         public async Task<List<Journey>> GetAllAsync()
         {
-           return await _context.Journeys.ToListAsync();
+            
+           return await _context.Journeys
+               .Include(j => j.Images)
+               .ToListAsync();
         }
 
         public async Task<Journey> GetByIdAsync(int id)
@@ -25,7 +28,7 @@ namespace ScrapBook.Repositories
         }
 
         public async Task AddAsync(Journey journey)
-        {
+        { 
             foreach (var image in journey.Images)
             {
                 image.Journey = journey; // billeder til spefifik rejse

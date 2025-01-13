@@ -28,53 +28,45 @@
 
     <div>
         <label for="images">Upload Images</label>
-        <InputFile OnChange="HandleFileUpload" multiple />
+        <InputFile OnChange="HandleFileSelection" multiple />
         <ul>
             @foreach (var file in UploadedFiles)
             {
-                <li>@file.Name</li>
+                <li>@file.FileName</li>
             }
         </ul>
     </div>
     
-    <button type="button" @onclick="LogJourneyState">Log Journey State</button>
-
     <button type="submit" class="btn btn-primary">Add Journey</button>
-    <button type="button" @onclick="TestClick">Click Me</button>
 
 </EditForm>
 
 @code {
     private Journey NewJourney = new Journey();
-    private List<IBrowserFile> UploadedFiles = new List<IBrowserFile>();
+    private List<(string FileName, byte[] content)> UploadedFiles = new();
 
-    private async Task HandleFileUpload(InputFileChangeEventArgs e)
+    private async void HandleFileSelection(InputFileChangeEventArgs e)
     {
-        UploadedFiles.AddRange(e.GetMultipleFiles());
+        foreach (var file in e.GetMultipleFiles())
+        {
+            using var memoryStream = new MemoryStream();
+            await file.OpenReadStream().CopyToAsync(memoryStream);
+
+            // Store file name and content as a tuple
+            UploadedFiles.Add((file.Name, memoryStream.ToArray()));
+        }
     }
     
-    private void LogJourneyState()
-    {
-        Console.WriteLine($"Logging: Title={NewJourney.Title}, Text={NewJourney.Text}, Date={NewJourney.Date}");
-    }
-    private void TestClick()
-    {
-        Console.WriteLine("Button was clicked!");
-    }
-
     private async Task HandleValidSubmit()
     {
         // Add images to the journey
-        foreach (var file in UploadedFiles)
+        foreach (var (fileName, content) in UploadedFiles)
         {
-            var uniqueFileName = $"{Guid.NewGuid()}-{file.Name}";
+            var uniqueFileName = $"{Guid.NewGuid()}-{fileName}";
             var path = Path.Combine("wwwroot/uploads", uniqueFileName);
 
             // Save file to disk
-            using (var stream = new FileStream(path, FileMode.Create))
-            {
-                await file.OpenReadStream().CopyToAsync(stream);
-            }
+            await File.WriteAllBytesAsync(path, content);
 
             // Add the image to the journey's image list
             NewJourney.Images.Add(new JourneyImage
