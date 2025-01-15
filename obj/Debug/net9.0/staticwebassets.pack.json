@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-adventure.jpg",
+      "PackagePath": "staticwebassets\\images\\perfect-adventure.jpg"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-beach.jpg",
+      "PackagePath": "staticwebassets\\images\\perfect-beach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-city.jpg",
+      "PackagePath": "staticwebassets\\images\\perfect-city.jpg"
+    },
+    {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
@@ -197,8 +209,16 @@
       "PackagePath": "staticwebassets\\uploads\\0ebdf716-a831-47e7-a5d3-4f9e72267d7c-Screenshot_4.png"
     },
     {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
+      "PackagePath": "staticwebassets\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png"
+    },
+    {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
+      "PackagePath": "staticwebassets\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png"
     },
     {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8f33a978-62fe-4348-9c19-0706db7090c9-Screenshot_4.png",
@@ -211,6 +231,10 @@
     {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png",
+      "PackagePath": "staticwebassets\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png"
     },
     {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\ea62a33e-b937-4aef-98de-a3350826d35b-png-clipart-scales-scales.png",

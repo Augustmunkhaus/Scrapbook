@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UwtTWeq5W4BokaiC4vlWSRQgd8nOCuyB2EmlNNNGraw=",
+  "Hash": "udqLTJVVqDKuB8ps46WKv8TruIiNraKiZbLdm649xP8=",
   "Source": "ScrapBook",
   "BasePath": "_content/ScrapBook",
   "Mode": "Default",
@@ -542,12 +542,12 @@
       "OriginalItemSpec": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-khy4lop6wu.gz",
+      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-gxin4wfv6t.gz",
       "SourceId": "ScrapBook",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ScrapBook",
-      "RelativePath": "app#[.{fingerprint=khy4lop6wu}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=gxin4wfv6t}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -556,8 +556,8 @@
       "RelatedAsset": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "596e5mu3rg",
-      "Integrity": "KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=",
+      "Fingerprint": "cnezsnmqhb",
+      "Integrity": "6GymkgfCifZgBxT+1OvLzBPXMPZYBCBVEPR171M9oIA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\app.css"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "khy4lop6wu",
-      "Integrity": "aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=",
+      "Fingerprint": "gxin4wfv6t",
+      "Integrity": "bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -1086,6 +1086,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-adventure.jpg",
+      "SourceId": "ScrapBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\",
+      "BasePath": "_content/ScrapBook",
+      "RelativePath": "images/perfect-adventure#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hacm70wvim",
+      "Integrity": "uQ7JBoYQ5GEGWBgCjjgPBhjwufuVBfwOQOnCOgbBjJo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\perfect-adventure.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-beach.jpg",
+      "SourceId": "ScrapBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\",
+      "BasePath": "_content/ScrapBook",
+      "RelativePath": "images/perfect-beach#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1euk9qbje3",
+      "Integrity": "2ZcIDraUGQYzh8z69LA1krLSUFdG+G5X4EA1avKtBQw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\perfect-beach.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-city.jpg",
+      "SourceId": "ScrapBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\",
+      "BasePath": "_content/ScrapBook",
+      "RelativePath": "images/perfect-city#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5nmoavjshg",
+      "Integrity": "od75SNOouSUFIug0VQIFsbD33WC/1zv9LHqGAU5IfG0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\perfect-city.jpg"
     },
     {
       "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2054,6 +2117,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\0ebdf716-a831-47e7-a5d3-4f9e72267d7c-Screenshot_4.png"
     },
     {
+      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
+      "SourceId": "ScrapBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\",
+      "BasePath": "_content/ScrapBook",
+      "RelativePath": "uploads/5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b85o2918jg",
+      "Integrity": "e0Y4wafHHXF+Tcb7kXyQ281ypK/mIFMRhPHtx1G5RL4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png"
+    },
+    {
       "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png",
       "SourceId": "ScrapBook",
       "SourceType": "Discovered",
@@ -2073,6 +2157,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png"
+    },
+    {
+      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
+      "SourceId": "ScrapBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\",
+      "BasePath": "_content/ScrapBook",
+      "RelativePath": "uploads/8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pw8qwvw298",
+      "Integrity": "Z9THFnoBEw+EhwIuIp2TBVuPlEdlbl+kfAWPetETBLM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png"
     },
     {
       "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8f33a978-62fe-4348-9c19-0706db7090c9-Screenshot_4.png",
@@ -2138,6 +2243,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png"
     },
     {
+      "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png",
+      "SourceId": "ScrapBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\",
+      "BasePath": "_content/ScrapBook",
+      "RelativePath": "uploads/e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gyrgi09xtj",
+      "Integrity": "eOwfhZuK57XvUV6yNiJlb0Kq4TH9Axo+xqkqq3rYvNc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png"
+    },
+    {
       "Identity": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\ea62a33e-b937-4aef-98de-a3350826d35b-png-clipart-scales-scales.png",
       "SourceId": "ScrapBook",
       "SourceType": "Discovered",
@@ -2162,12 +2288,12 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-khy4lop6wu.gz",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-gxin4wfv6t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000636132316"
+          "Quality": "0.000399361022"
         }
       ],
       "ResponseHeaders": [
@@ -2177,15 +2303,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "2503"
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"6GymkgfCifZgBxT+1OvLzBPXMPZYBCBVEPR171M9oIA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 19:30:20 GMT"
+          "Value": "Wed, 15 Jan 2025 11:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2205,13 +2331,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "W/\"bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM="
         }
       ]
     },
@@ -2226,7 +2352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2900"
+          "Value": "5691"
         },
         {
           "Name": "Content-Type",
@@ -2234,11 +2360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "\"bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 19:30:20 GMT"
+          "Value": "Wed, 15 Jan 2025 11:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2248,13 +2374,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM="
         }
       ]
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-khy4lop6wu.gz",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-gxin4wfv6t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2263,7 +2389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "2503"
         },
         {
           "Name": "Content-Type",
@@ -2271,11 +2397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"6GymkgfCifZgBxT+1OvLzBPXMPZYBCBVEPR171M9oIA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 19:30:20 GMT"
+          "Value": "Wed, 15 Jan 2025 11:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2293,18 +2419,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+          "Value": "sha256-6GymkgfCifZgBxT+1OvLzBPXMPZYBCBVEPR171M9oIA="
         }
       ]
     },
     {
-      "Route": "app.khy4lop6wu.css",
-      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-khy4lop6wu.gz",
+      "Route": "app.gxin4wfv6t.css",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-gxin4wfv6t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000636132316"
+          "Quality": "0.000399361022"
         }
       ],
       "ResponseHeaders": [
@@ -2314,15 +2440,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "2503"
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"6GymkgfCifZgBxT+1OvLzBPXMPZYBCBVEPR171M9oIA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 19:30:20 GMT"
+          "Value": "Wed, 15 Jan 2025 11:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2342,13 +2468,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "W/\"bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "khy4lop6wu"
+          "Value": "gxin4wfv6t"
         },
         {
           "Name": "label",
@@ -2356,12 +2482,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM="
         }
       ]
     },
     {
-      "Route": "app.khy4lop6wu.css",
+      "Route": "app.gxin4wfv6t.css",
       "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2371,7 +2497,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2900"
+          "Value": "5691"
         },
         {
           "Name": "Content-Type",
@@ -2379,11 +2505,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
+          "Value": "\"bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 19:30:20 GMT"
+          "Value": "Wed, 15 Jan 2025 11:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2393,7 +2519,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "khy4lop6wu"
+          "Value": "gxin4wfv6t"
         },
         {
           "Name": "label",
@@ -2401,13 +2527,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+          "Value": "sha256-bIwO/KkIf4iutENUuwApSe2qYDFHmaRHoSuBPPtsXUM="
         }
       ]
     },
     {
-      "Route": "app.khy4lop6wu.css.gz",
-      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-khy4lop6wu.gz",
+      "Route": "app.gxin4wfv6t.css.gz",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\compressed\\ew7splzgr7-gxin4wfv6t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2416,7 +2542,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1571"
+          "Value": "2503"
         },
         {
           "Name": "Content-Type",
@@ -2424,11 +2550,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0=\""
+          "Value": "\"6GymkgfCifZgBxT+1OvLzBPXMPZYBCBVEPR171M9oIA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 19:30:20 GMT"
+          "Value": "Wed, 15 Jan 2025 11:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2446,7 +2572,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "khy4lop6wu"
+          "Value": "gxin4wfv6t"
         },
         {
           "Name": "label",
@@ -2454,7 +2580,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KfTtGgOr4gFqWP6bDC3erwKnY0fchsCFGM8SFQeyGO0="
+          "Value": "sha256-6GymkgfCifZgBxT+1OvLzBPXMPZYBCBVEPR171M9oIA="
         }
       ]
     },
@@ -2537,6 +2663,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/perfect-adventure.hacm70wvim.jpg",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-adventure.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQ7JBoYQ5GEGWBgCjjgPBhjwufuVBfwOQOnCOgbBjJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 11:00:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hacm70wvim"
+        },
+        {
+          "Name": "label",
+          "Value": "images/perfect-adventure.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uQ7JBoYQ5GEGWBgCjjgPBhjwufuVBfwOQOnCOgbBjJo="
+        }
+      ]
+    },
+    {
+      "Route": "images/perfect-adventure.jpg",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-adventure.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uQ7JBoYQ5GEGWBgCjjgPBhjwufuVBfwOQOnCOgbBjJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 11:00:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uQ7JBoYQ5GEGWBgCjjgPBhjwufuVBfwOQOnCOgbBjJo="
+        }
+      ]
+    },
+    {
+      "Route": "images/perfect-beach.1euk9qbje3.jpg",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-beach.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "260947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ZcIDraUGQYzh8z69LA1krLSUFdG+G5X4EA1avKtBQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 10:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1euk9qbje3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/perfect-beach.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2ZcIDraUGQYzh8z69LA1krLSUFdG+G5X4EA1avKtBQw="
+        }
+      ]
+    },
+    {
+      "Route": "images/perfect-beach.jpg",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-beach.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "260947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ZcIDraUGQYzh8z69LA1krLSUFdG+G5X4EA1avKtBQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 10:59:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2ZcIDraUGQYzh8z69LA1krLSUFdG+G5X4EA1avKtBQw="
+        }
+      ]
+    },
+    {
+      "Route": "images/perfect-city.5nmoavjshg.jpg",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-city.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"od75SNOouSUFIug0VQIFsbD33WC/1zv9LHqGAU5IfG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 10:59:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5nmoavjshg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/perfect-city.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-od75SNOouSUFIug0VQIFsbD33WC/1zv9LHqGAU5IfG0="
+        }
+      ]
+    },
+    {
+      "Route": "images/perfect-city.jpg",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-city.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"od75SNOouSUFIug0VQIFsbD33WC/1zv9LHqGAU5IfG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 10:59:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-od75SNOouSUFIug0VQIFsbD33WC/1zv9LHqGAU5IfG0="
         }
       ]
     },
@@ -16413,6 +16785,88 @@
       ]
     },
     {
+      "Route": "uploads/5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.b85o2918jg.png",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0Y4wafHHXF+Tcb7kXyQ281ypK/mIFMRhPHtx1G5RL4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 14:30:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b85o2918jg"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e0Y4wafHHXF+Tcb7kXyQ281ypK/mIFMRhPHtx1G5RL4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0Y4wafHHXF+Tcb7kXyQ281ypK/mIFMRhPHtx1G5RL4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 14:30:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e0Y4wafHHXF+Tcb7kXyQ281ypK/mIFMRhPHtx1G5RL4="
+        }
+      ]
+    },
+    {
       "Route": "uploads/76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.gyrgi09xtj.png",
       "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png",
       "Selectors": [],
@@ -16491,6 +16945,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-eOwfhZuK57XvUV6yNiJlb0Kq4TH9Axo+xqkqq3rYvNc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z9THFnoBEw+EhwIuIp2TBVuPlEdlbl+kfAWPetETBLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 14:30:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z9THFnoBEw+EhwIuIp2TBVuPlEdlbl+kfAWPetETBLM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.pw8qwvw298.png",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z9THFnoBEw+EhwIuIp2TBVuPlEdlbl+kfAWPetETBLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 14:30:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pw8qwvw298"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z9THFnoBEw+EhwIuIp2TBVuPlEdlbl+kfAWPetETBLM="
         }
       ]
     },
@@ -16727,6 +17263,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 10 Jan 2025 11:47:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eOwfhZuK57XvUV6yNiJlb0Kq4TH9Axo+xqkqq3rYvNc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.gyrgi09xtj.png",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eOwfhZuK57XvUV6yNiJlb0Kq4TH9Axo+xqkqq3rYvNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 14:30:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gyrgi09xtj"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eOwfhZuK57XvUV6yNiJlb0Kq4TH9Axo+xqkqq3rYvNc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png",
+      "AssetFile": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eOwfhZuK57XvUV6yNiJlb0Kq4TH9Axo+xqkqq3rYvNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 14:30:32 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -1,3 +1,7 @@
+:root {
+    --random-color: rgba(0, 0, 0, 0.15);
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -57,4 +61,130 @@ h1:focus {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
+}
+
+.hero-section {
+    height: 200px; /* Adjust the height of the hero section */
+    padding: 20px; /* Adjust the padding to reduce spacing inside the hero */
+}
+
+.card {
+    position: relative;
+    background-color: var(--random-color); /* Background color */
+    background-clip: padding-box; /* Prevents the color from spilling over */
+    padding: 15px; /* Padding around the content */
+    border-radius: 8px;
+    overflow: hidden; /* Prevents color from spilling over */
+}
+
+.card img {
+    z-index: 1; /* Ensure images are on top of the color */
+    position: relative; /* Ensure images appear above the background */
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--random-color, rgba(0, 0, 0, 0.15)); 
+    opacity: 0.15; 
+    z-index: 0;
+}
+
+.card-body {
+    position: relative;
+    z-index: 1; 
+}
+
+.card-container {
+    margin-top: 40px;
+}
+
+.vacation-gallery {
+    margin-top: 40px;
+}
+
+.vacation-gallery .img-fluid {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+}
+
+.bottom-description {
+    margin-top: 40px;
+}
+
+
+.journey-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Modal background styling */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex; /* Flexbox to center modal */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 999;
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* Initially not interactive */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for opening */
+}
+
+/* Make modal visible */
+.modal.show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Modal content styling */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin: auto;
+}
+
+/* Close button */
+.close {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Hover effect for close button */
+.close:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+/* Modal content animation */
+@keyframes expandModal {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }

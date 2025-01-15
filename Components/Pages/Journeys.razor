@@ -1,45 +1,77 @@
 @page "/View-Journeys"
 @using ScrapBook.Repositories
+@inject HttpClient Http
 @inject IJourneyRepository JourneyRepository
+@inject IJSRuntime JSRuntime
+@using System.Net.Http
 
 <PageTitle>Journeys</PageTitle>
 
-<h1>My journeys</h1>
+<div class="hero-section bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">My Journeys</h1>
+        <p class="lead">Relive your adventures and cherish the memories you created.</p>
+    </div>
+</div>
 
-@if (journeys == null || journeys.Count == 0)
-{
-    <p>No Journeys</p>
-}
-else
-{
-@foreach (var Journey in journeys)
-{
-    <div>
-        
-        <h2>Title: @Journey.Title</h2><br/>
-        <p>Text: @Journey.Text</p><br/>
-        <p>Date: @Journey.Date.ToShortDateString()</p><br/>
-            
-        @if (Journey.Images.Count > 0)
+<div class="card-container">
+    <div class="row">
+        @foreach (var Journey in journeys)
         {
-            <div class="images">
-                @foreach (var image in Journey.Images)
-                {
-                    <img src="@image.ImagePath" alt="Image for @Journey.Title" style="max-width:200px; max-height:200px; margin:10px;" />
-                }
+            var randomColor = GetRandomColor();
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm journey-card" style="--random-color: @randomColor;" @onclick="(e) => OpenJourneyModal(Journey)">
+                    <div class="card-body">
+                        <h5 class="card-title">@Journey.Title</h5>
+                        <p class="card-text text-truncate">@Journey.Text</p>
+                        <p class="text-muted">@Journey.Date.ToShortDateString()</p>
+                    </div>
+                    @if (Journey.Images != null && Journey.Images.Count > 0)
+                    {
+                        <div class="card-images p-3">
+                            <div class="d-flex flex-wrap justify-content-center">
+                                @foreach (var image in Journey.Images)
+                                {
+                                    <img src="@image.ImagePath" alt="Image for @Journey.Title"
+                                         class="img-thumbnail m-1" style="width: 100px; height: 100px; object-fit: cover;" />
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
             </div>
         }
-        else
-        {
-        <p>No images added for this journey</p>
-        }
     </div>
-    <hr/>
-}
-}
+</div>
 
-@code{
+<!-- Modal -->
+@if (selectedJourney != null)
+{
+    <div class="modal-content" @onclick:stopPropagation>
+        <span class="close" @onclick="CloseModal">&times;</span>
+        <h2>Edit Journey</h2>
+        <EditForm Model="selectedJourney" OnValidSubmit="UpdateJourney">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <InputText id="title" class="form-control" @bind-Value="selectedJourney.Title" />
+            </div>
+            <div class="form-group">
+                <label for="text">Text</label>
+                <InputTextArea id="text" class="form-control" @bind-Value="selectedJourney.Text" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </div>
+        </EditForm>
+        <button class="btn btn-danger mt-2" @onclick="ConfirmDeleteJourney">Delete Journey</button>
+    </div>
+}}
+
+
+
+@code {
     private List<Journey> journeys;
+    private Journey selectedJourney;
 
     protected override async Task OnInitializedAsync()
     {
@@ -47,11 +79,79 @@ else
 
         foreach (var journey in journeys)
         {
-            // Optionally, load images if not automatically included
             if (journey.Images == null)
             {
-                journey.Images = new List<JourneyImage>(); // Ensure images collection is not null
+                journey.Images = new List<JourneyImage>();
             }
         }
     }
+
+    private string GetRandomColor()
+    {
+        var colors = new List<string>
+        {
+            "rgba(255, 99, 71, 1)",   /* Light Red */
+            "rgba(135, 206, 235, 1)", /* Light Blue */
+            "rgba(144, 238, 144, 1)", /* Light Green */
+            "rgba(255, 222, 173, 1)", /* Light Beige */
+            "rgba(238, 130, 238, 1)"  /* Light Purple */
+        };
+
+        var random = new Random();
+        return colors[random.Next(colors.Count)];
+    }
+
+    private void OpenJourneyModal(Journey journey)
+    {
+        selectedJourney = journey; // Set selected journey for editing
+    }
+
+    private void CloseModal()
+    {
+        selectedJourney = null; // Close the modal
+    }
+
+    private void StopPropagation(MouseEventArgs e)
+    {
+         // Prevent click event from closing modal
+    }
+
+    private async Task UpdateJourney()
+    {
+        // Make an HTTP PUT request to update the journey via the controller
+        var response = await Http.PutAsJsonAsync($"api/journey/{selectedJourney.Id}", selectedJourney);
+
+        if (response.IsSuccessStatusCode)
+        {
+            selectedJourney = null; // Close modal after update
+            journeys = await Http.GetFromJsonAsync<List<Journey>>("api/journey"); // Refresh the journeys list
+        }
+        else
+        {
+            // Handle error (e.g., show a message to the user)
+            Console.WriteLine("Update failed");
+        }
+    }
+
+    private async Task ConfirmDeleteJourney()
+    {
+        var confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Are you sure you want to delete this journey?");
+        if (confirmed)
+        {
+            // Make an HTTP DELETE request to delete the journey via the controller
+            var response = await Http.DeleteAsync($"api/journey/{selectedJourney.Id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                selectedJourney = null; // Close modal after delete
+                journeys = await Http.GetFromJsonAsync<List<Journey>>("api/journey"); // Refresh the journeys list
+            }
+            else
+            {
+                // Handle error (e.g., show a message to the user)
+                Console.WriteLine("Delete failed");
+            }
+        }
+    }
+}
 }

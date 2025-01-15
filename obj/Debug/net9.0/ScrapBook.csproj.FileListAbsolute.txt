@@ -167,7 +167,6 @@ C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\scopedcss\Com
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\scopedcss\bundle\ScrapBook.styles.css
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\scopedcss\projectbundle\ScrapBook.bundle.scp.css
-C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\compressed\ew7splzgr7-khy4lop6wu.gz
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\compressed\2lhsl8bjlx-t1cqhe9u97.gz
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\compressed\4xz0yx7rw4-c2jlpeoesf.gz
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\compressed\kd0xyg6fuf-sejl45xvog.gz
@@ -229,3 +228,4 @@ C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\refint\ScrapB
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\ScrapBook.pdb
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\ScrapBook.genruntimeconfig.cache
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\ref\ScrapBook.dll
+C:\Users\August\RiderProjects\ScrapBook\ScrapBook\obj\Debug\net9.0\compressed\ew7splzgr7-gxin4wfv6t.gz
