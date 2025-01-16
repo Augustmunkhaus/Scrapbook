@@ -205,8 +205,16 @@
       "PackagePath": "staticwebassets\\uploads\\0ca11431-fcf0-4a29-9eab-41b2a3483bda-Screenshot_4.png"
     },
     {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\0e0a93c8-1763-4e5b-be6d-94e76444e01a-plakater-klassisk-italiensk-pizza-i-venedig-mod-kanalen-italien.jpg.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0e0a93c8-1763-4e5b-be6d-94e76444e01a-plakater-klassisk-italiensk-pizza-i-venedig-mod-kanalen-italien.jpg.jpg"
+    },
+    {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\0ebdf716-a831-47e7-a5d3-4f9e72267d7c-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\0ebdf716-a831-47e7-a5d3-4f9e72267d7c-Screenshot_4.png"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\354e886c-ac20-4492-9240-ebf23e6ab9cc-yuudd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\354e886c-ac20-4492-9240-ebf23e6ab9cc-yuudd.jpg"
     },
     {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
@@ -215,6 +223,10 @@
     {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\84e55075-3946-4f61-8e8a-65dcb5627213-AdobeStock_600911482.webp",
+      "PackagePath": "staticwebassets\\uploads\\84e55075-3946-4f61-8e8a-65dcb5627213-AdobeStock_600911482.webp"
     },
     {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
@@ -229,6 +241,10 @@
       "PackagePath": "staticwebassets\\uploads\\98874294-62dd-43fc-8edc-e602a2bd2a98-Screenshot_2.png"
     },
     {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\ab1576a8-c303-4a73-b142-26b5f2acfc33-imagesasdasadasas.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ab1576a8-c303-4a73-b142-26b5f2acfc33-imagesasdasadasas.jpg"
+    },
+    {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png"
     },
@@ -239,6 +255,10 @@
     {
       "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\ea62a33e-b937-4aef-98de-a3350826d35b-png-clipart-scales-scales.png",
       "PackagePath": "staticwebassets\\uploads\\ea62a33e-b937-4aef-98de-a3350826d35b-png-clipart-scales-scales.png"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\f192cc7b-77a4-45e3-a631-680c75f823f5-ke-blog-billeder11.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f192cc7b-77a4-45e3-a631-680c75f823f5-ke-blog-billeder11.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.ScrapBook.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

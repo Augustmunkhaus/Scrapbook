@@ -4,6 +4,9 @@
 @inject IJourneyRepository JourneyRepository
 @inject IJSRuntime JSRuntime
 @using System.Net.Http
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@inject IHttpClientFactory HttpClientFactory
 
 <PageTitle>Journeys</PageTitle>
 
@@ -47,25 +50,27 @@
 <!-- Modal -->
 @if (selectedJourney != null)
 {
-    <div class="modal-content" @onclick:stopPropagation>
-        <span class="close" @onclick="CloseModal">&times;</span>
-        <h2>Edit Journey</h2>
-        <EditForm Model="selectedJourney" OnValidSubmit="UpdateJourney">
-            <div class="form-group">
-                <label for="title">Title</label>
-                <InputText id="title" class="form-control" @bind-Value="selectedJourney.Title" />
-            </div>
-            <div class="form-group">
-                <label for="text">Text</label>
-                <InputTextArea id="text" class="form-control" @bind-Value="selectedJourney.Text" />
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary">Save Changes</button>
-            </div>
-        </EditForm>
-        <button class="btn btn-danger mt-2" @onclick="ConfirmDeleteJourney">Delete Journey</button>
+    <div class="modal-backdrop" @onclick="CloseModal">
+        <div class="modal-content" @onclick:stopPropagation>
+            <span class="close" @onclick="CloseModal">&times;</span>
+            <h2>Edit Journey</h2>
+            <EditForm Model="selectedJourney" OnValidSubmit="UpdateJourney">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <InputText id="title" class="form-control" @bind-Value="selectedJourney.Title" />
+                </div>
+                <div class="form-group">
+                    <label for="text">Text</label>
+                    <InputTextArea id="text" class="form-control" @bind-Value="selectedJourney.Text" />
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Save Changes</button>
+                </div>
+            </EditForm>
+            <button class="btn btn-danger mt-2" @onclick="ConfirmDeleteJourney">Delete Journey</button>
+        </div>
     </div>
-}}
+}
 
 
 
@@ -115,16 +120,45 @@
     {
          // Prevent click event from closing modal
     }
+//
 
     private async Task UpdateJourney()
     {
         // Make an HTTP PUT request to update the journey via the controller
-        var response = await Http.PutAsJsonAsync($"api/journey/{selectedJourney.Id}", selectedJourney);
+        var response = await Http.PutAsJsonAsync($"journeys/{selectedJourney.Id}", selectedJourney);
 
         if (response.IsSuccessStatusCode)
         {
             selectedJourney = null; // Close modal after update
-            journeys = await Http.GetFromJsonAsync<List<Journey>>("api/journey"); // Refresh the journeys list
+
+            // Refresh the journeys list
+            var getResponse = await Http.GetAsync("journeys");
+
+            if (getResponse.IsSuccessStatusCode)
+            {
+                var jsonResponse = await getResponse.Content.ReadAsStringAsync();
+                
+                if (!string.IsNullOrEmpty(jsonResponse))
+                {
+                    try
+                    {
+                        // Only deserialize if there is content
+                        journeys = await getResponse.Content.ReadFromJsonAsync<List<Journey>>();
+                    }
+                    catch (JsonException)
+                    {
+                        
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No data returned from API.");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Error fetching journeys: {getResponse.StatusCode}");
+            }
         }
         else
         {
@@ -133,25 +167,28 @@
         }
     }
 
+
+
     private async Task ConfirmDeleteJourney()
     {
         var confirmed = await JSRuntime.InvokeAsync<bool>("confirm", "Are you sure you want to delete this journey?");
         if (confirmed)
         {
             // Make an HTTP DELETE request to delete the journey via the controller
-            var response = await Http.DeleteAsync($"api/journey/{selectedJourney.Id}");
+            var response = await Http.DeleteAsync($"journeys/{selectedJourney?.Id}");
 
             if (response.IsSuccessStatusCode)
             {
+                // After successful deletion, clear the selectedJourney and remove it from the list
+                journeys.Remove(journeys.FirstOrDefault(j => j.Id == selectedJourney.Id)); 
                 selectedJourney = null; // Close modal after delete
-                journeys = await Http.GetFromJsonAsync<List<Journey>>("api/journey"); // Refresh the journeys list
+                StateHasChanged(); // Trigger UI update
             }
             else
             {
-                // Handle error (e.g., show a message to the user)
-                Console.WriteLine("Delete failed");
+                // Log or show an error message if delete failed
+                Console.WriteLine($"Delete failed with status: {response.StatusCode}");
             }
         }
     }
-}
 }

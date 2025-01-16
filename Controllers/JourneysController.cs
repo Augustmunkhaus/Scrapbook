@@ -41,7 +41,7 @@ public class JourneysController : ControllerBase
     }
     
     [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
+    public async Task<IActionResult> DeleteJourney(int id)
     {
         var journey = await _journeyRepository.GetByIdAsync(id);
         if (journey == null) return NotFound();

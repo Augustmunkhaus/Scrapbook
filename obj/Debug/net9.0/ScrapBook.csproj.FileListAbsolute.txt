@@ -228,4 +228,4 @@ C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\refint\ScrapB
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\ScrapBook.pdb
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\ScrapBook.genruntimeconfig.cache
 C:\Users\August\RiderProjects\ScrapBook\scrapbook\obj\Debug\net9.0\ref\ScrapBook.dll
-C:\Users\August\RiderProjects\ScrapBook\ScrapBook\obj\Debug\net9.0\compressed\ew7splzgr7-gxin4wfv6t.gz
+C:\Users\August\RiderProjects\ScrapBook\ScrapBook\obj\Debug\net9.0\compressed\ew7splzgr7-136u69xtox.gz

@@ -4,23 +4,39 @@ using ScrapBook.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddRazorPages();  
 builder.Services.AddServerSideBlazor();
 builder.Services.AddHttpClient();
 builder.Services.AddRazorComponents().AddInteractiveServerComponents();
 
-// Add DbContext for SQLite
+//  DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register repositories
+// Repositories
 builder.Services.AddScoped<JourneyRepository>();
 builder.Services.AddScoped<JourneyImageRepository>();
 builder.Services.AddScoped<IJourneyRepository, JourneyRepository>();
 builder.Services.AddScoped<IJourneyImageRepository, JourneyImageRepository>();
 
-// Register HttpClient (for API communication) - Remove this for Blazor Web App, it's unnecessary
+// Retrieve BaseAddress from appsettings.json
+var baseAddress = builder.Configuration["BaseAddress"];
+
+// Register HttpClient
+builder.Services.AddHttpClient("ScrapBookAPI", client =>
+{
+    if (!string.IsNullOrEmpty(baseAddress))
+    {
+        client.BaseAddress = new Uri(baseAddress);
+    }
+    else
+    {
+        throw new InvalidOperationException("BaseAddress is not configured.");
+    }
+});
+
+builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("ScrapBookAPI"));
+
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -31,7 +47,6 @@ builder.Services.AddControllers()
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
@@ -42,7 +57,6 @@ app.MapControllers();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-// Configure routing
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

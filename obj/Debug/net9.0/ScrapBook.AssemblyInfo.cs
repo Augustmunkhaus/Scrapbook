@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScrapBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+455de94a12e213afbbff750009b14390c22358ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+393e5ee3826ed1d97b0e291fc82607ffc7d2f141")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScrapBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScrapBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

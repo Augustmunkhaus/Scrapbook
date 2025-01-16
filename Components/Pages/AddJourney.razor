@@ -5,41 +5,56 @@
 @inject NavigationManager NavigationManager
 @rendermode InteractiveServer
 
-<h3>Add a New Journey</h3>
-
-<EditForm Model="NewJourney" OnValidSubmit="HandleValidSubmit" FormName="AddJourneyForm">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
-
-    <div>
-        <label for="title">Title</label>
-        <InputText id="title" @bind-Value="NewJourney.Title" class="form-control" />
+<div class="hero-section bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Add a New Journey</h1>
     </div>
-
-    <div>
-        <label for="text">Text</label>
-        <InputTextArea id="text" @bind-Value="NewJourney.Text" class="form-control" />
-    </div>
-
-    <div>
-        <label for="date">Date</label>
-        <InputDate id="date" @bind-Value="NewJourney.Date" class="form-control" />
-    </div>
-
-    <div>
-        <label for="images">Upload Images</label>
-        <InputFile OnChange="HandleFileSelection" multiple />
-        <ul>
-            @foreach (var file in UploadedFiles)
-            {
-                <li>@file.FileName</li>
-            }
-        </ul>
-    </div>
+</div>
+<div>
     
-    <button type="submit" class="btn btn-primary">Add Journey</button>
+</div>
+<div class="container">
+    <EditForm Model="NewJourney" OnValidSubmit="HandleValidSubmit" FormName="AddJourneyForm" class="mt-4">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
 
-</EditForm>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <InputText id="title" @bind-Value="NewJourney.Title" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="text" class="form-label">Text</label>
+                    <InputTextArea id="text" @bind-Value="NewJourney.Text" class="form-control" rows="5" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="date" class="form-label">Date</label>
+                    <InputDate id="date" @bind-Value="NewJourney.Date" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="images" class="form-label">Upload Images, choose as many as you want</label>
+                    <InputFile OnChange="HandleFileSelection" multiple class="form-control" />
+                    
+                    <ul class="mt-2 list-unstyled">
+                        @foreach (var file in UploadedFiles)
+                        {
+                            <li>@file.FileName</li>
+                        }
+                    </ul>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary"style="width: 150px; margin: auto;">Add Journey</button>
+                </div>
+            </div>
+        </div>
+    </EditForm>
+</div>
 
 @code {
     private Journey NewJourney = new Journey();
@@ -75,15 +90,14 @@
             });
         }
         
-        // gem
+        // Add journey
         await JourneyRepository.AddAsync(NewJourney);
         
-        // reset
+        // Reset form
         NewJourney = new Journey();
         UploadedFiles.Clear();
         
-        // Redirect
+        // Redirect to journey list
         NavigationManager.NavigateTo("/view-journeys");
-        
     }
 }
