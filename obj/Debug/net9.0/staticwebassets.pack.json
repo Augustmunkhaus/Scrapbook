@@ -1,263 +1,271 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ScrapBook.bundle.scp.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\ScrapBook.bundle.scp.css",
       "PackagePath": "staticwebassets\\ScrapBook.45qx4ta6kv.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\app.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-adventure.jpg",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\images\\perfect-adventure.jpg",
       "PackagePath": "staticwebassets\\images\\perfect-adventure.jpg"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-beach.jpg",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\images\\perfect-beach.jpg",
       "PackagePath": "staticwebassets\\images\\perfect-beach.jpg"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\images\\perfect-city.jpg",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\images\\perfect-city.jpg",
       "PackagePath": "staticwebassets\\images\\perfect-city.jpg"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\0ca11431-fcf0-4a29-9eab-41b2a3483bda-Screenshot_4.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\0ca11431-fcf0-4a29-9eab-41b2a3483bda-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\0ca11431-fcf0-4a29-9eab-41b2a3483bda-Screenshot_4.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\0e0a93c8-1763-4e5b-be6d-94e76444e01a-plakater-klassisk-italiensk-pizza-i-venedig-mod-kanalen-italien.jpg.jpg",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\0e0a93c8-1763-4e5b-be6d-94e76444e01a-plakater-klassisk-italiensk-pizza-i-venedig-mod-kanalen-italien.jpg.jpg",
       "PackagePath": "staticwebassets\\uploads\\0e0a93c8-1763-4e5b-be6d-94e76444e01a-plakater-klassisk-italiensk-pizza-i-venedig-mod-kanalen-italien.jpg.jpg"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\0ebdf716-a831-47e7-a5d3-4f9e72267d7c-Screenshot_4.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\0ebdf716-a831-47e7-a5d3-4f9e72267d7c-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\0ebdf716-a831-47e7-a5d3-4f9e72267d7c-Screenshot_4.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\354e886c-ac20-4492-9240-ebf23e6ab9cc-yuudd.jpg",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\354e886c-ac20-4492-9240-ebf23e6ab9cc-yuudd.jpg",
       "PackagePath": "staticwebassets\\uploads\\354e886c-ac20-4492-9240-ebf23e6ab9cc-yuudd.jpg"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\552669a4-7f5b-4474-872d-b1b621225d71-183500492_734459280579851_1461194718140919589_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\552669a4-7f5b-4474-872d-b1b621225d71-183500492_734459280579851_1461194718140919589_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png",
       "PackagePath": "staticwebassets\\uploads\\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\76594a3c-90d0-4eec-85ea-ae7f6d747fb4-Screenshot_4.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\84e55075-3946-4f61-8e8a-65dcb5627213-AdobeStock_600911482.webp",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\84e55075-3946-4f61-8e8a-65dcb5627213-AdobeStock_600911482.webp",
       "PackagePath": "staticwebassets\\uploads\\84e55075-3946-4f61-8e8a-65dcb5627213-AdobeStock_600911482.webp"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png",
       "PackagePath": "staticwebassets\\uploads\\8d911827-c70c-418f-a251-aa62acdb7ab3-png-clipart-scales-scales.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\8f33a978-62fe-4348-9c19-0706db7090c9-Screenshot_4.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\8f33a978-62fe-4348-9c19-0706db7090c9-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\8f33a978-62fe-4348-9c19-0706db7090c9-Screenshot_4.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\98874294-62dd-43fc-8edc-e602a2bd2a98-Screenshot_2.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\98874294-62dd-43fc-8edc-e602a2bd2a98-Screenshot_2.png",
       "PackagePath": "staticwebassets\\uploads\\98874294-62dd-43fc-8edc-e602a2bd2a98-Screenshot_2.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\ab1576a8-c303-4a73-b142-26b5f2acfc33-imagesasdasadasas.jpg",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\ab1576a8-c303-4a73-b142-26b5f2acfc33-imagesasdasadasas.jpg",
       "PackagePath": "staticwebassets\\uploads\\ab1576a8-c303-4a73-b142-26b5f2acfc33-imagesasdasadasas.jpg"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\e1321f8c-1053-45cc-9232-50a051f187db-Screenshot_6.png",
+      "PackagePath": "staticwebassets\\uploads\\e1321f8c-1053-45cc-9232-50a051f187db-Screenshot_6.png"
+    },
+    {
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png",
       "PackagePath": "staticwebassets\\uploads\\e9e6cefb-28cb-486d-aa3f-990419c24245-Screenshot_4.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\ea62a33e-b937-4aef-98de-a3350826d35b-png-clipart-scales-scales.png",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\ea62a33e-b937-4aef-98de-a3350826d35b-png-clipart-scales-scales.png",
       "PackagePath": "staticwebassets\\uploads\\ea62a33e-b937-4aef-98de-a3350826d35b-png-clipart-scales-scales.png"
     },
     {
-      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\wwwroot\\uploads\\f192cc7b-77a4-45e3-a631-680c75f823f5-ke-blog-billeder11.jpg",
+      "Id": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\wwwroot\\uploads\\f192cc7b-77a4-45e3-a631-680c75f823f5-ke-blog-billeder11.jpg",
       "PackagePath": "staticwebassets\\uploads\\f192cc7b-77a4-45e3-a631-680c75f823f5-ke-blog-billeder11.jpg"
     },
     {

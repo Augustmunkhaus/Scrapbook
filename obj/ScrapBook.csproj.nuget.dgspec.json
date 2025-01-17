@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\ScrapBook.csproj": {}
+    "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\ScrapBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\ScrapBook.csproj": {
+    "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\ScrapBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\ScrapBook.csproj",
+        "projectUniqueName": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\ScrapBook.csproj",
         "projectName": "ScrapBook",
-        "projectPath": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\ScrapBook.csproj",
+        "projectPath": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\ScrapBook.csproj",
         "packagesPath": "C:\\Users\\August\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\August\\RiderProjects\\ScrapBook\\ScrapBook\\obj\\",
+        "outputPath": "C:\\Users\\August\\RiderProjects\\ScrapBook\\scrapbook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

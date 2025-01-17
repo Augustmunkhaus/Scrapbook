@@ -47,8 +47,35 @@
     </div>
 </div>
 
-<!-- Modal -->
-@if (selectedJourney != null)
+<!-- Modal for detailed view -->
+@if (selectedJourney != null && !IsEditMode)
+{
+    <div class="detailed-modal-overlay" @onclick="CloseModal">
+        <div class="detailed-modal-content" @onclick:stopPropagation>
+            <button class="detailed-close-button" @onclick="CloseModal">X</button>
+            <h2>@selectedJourney.Title</h2>
+            <p class="text-muted">@selectedJourney.Date.ToString("dd-MM-yyyy")</p>
+            <p>@selectedJourney.Text</p>
+            <div class="detailed-journey-images">
+                @if (selectedJourney.Images != null && selectedJourney.Images.Count > 0)
+                {
+                    @foreach (var image in selectedJourney.Images)
+                    {
+                        <img src="@image.ImagePath" alt="Journey Image" class="detailed-journey-image" />
+                    }
+                }
+                else
+                {
+                    <p>No images available for this journey.</p>
+                }
+            </div>
+            <button class="btn btn-primary mt-3" @onclick="() => ShowEditModal(selectedJourney)">Edit</button>
+        </div>
+    </div>
+}
+
+<!-- edit Modal -->
+@if (selectedJourney != null && IsEditMode)
 {
     <div class="modal-backdrop" @onclick="CloseModal">
         <div class="modal-content" @onclick:stopPropagation>
@@ -77,7 +104,8 @@
 @code {
     private List<Journey> journeys;
     private Journey selectedJourney;
-
+    private bool IsEditMode = false;
+    
     protected override async Task OnInitializedAsync()
     {
         journeys = await JourneyRepository.GetAllAsync();
@@ -109,17 +137,21 @@
     private void OpenJourneyModal(Journey journey)
     {
         selectedJourney = journey; // Set selected journey for editing
+        IsEditMode = false; // Open in view mode
+    }
+    
+    private void ShowEditModal(Journey journey)
+    {
+        selectedJourney = journey; // Set the selected journey
+        IsEditMode = true; // Switch to edit mode
     }
 
     private void CloseModal()
     {
         selectedJourney = null; // Close the modal
+        IsEditMode = false; // Reset mode
     }
-
-    private void StopPropagation(MouseEventArgs e)
-    {
-         // Prevent click event from closing modal
-    }
+    
 //
 
     private async Task UpdateJourney()

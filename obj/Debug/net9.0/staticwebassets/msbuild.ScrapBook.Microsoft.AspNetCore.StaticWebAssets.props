@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>136u69xtox</Fingerprint>
-      <Integrity>s6sGGqiAhEDOb+XwXRueUJwRxqxpc68jvhGe7HjPUwc=</Integrity>
+      <Fingerprint>notznsm386</Fingerprint>
+      <Integrity>Bwg3CoNVuoxek+wdkuYnjQIGvenxI1kr/DEvvxAya24=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</OriginalItemSpec>
@@ -972,6 +972,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\354e886c-ac20-4492-9240-ebf23e6ab9cc-yuudd.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\552669a4-7f5b-4474-872d-b1b621225d71-183500492_734459280579851_1461194718140919589_n.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ScrapBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ScrapBook</BasePath>
+      <RelativePath>uploads/552669a4-7f5b-4474-872d-b1b621225d71-183500492_734459280579851_1461194718140919589_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l9osmt5aq0</Fingerprint>
+      <Integrity>J1xv5lh8CMTBTgRJLApyeeRq6mP/Z+hTpnBKvailnhA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\552669a4-7f5b-4474-872d-b1b621225d71-183500492_734459280579851_1461194718140919589_n.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5c8cc97a-1f8d-492d-8a19-6b3ecd658e1c-Screenshot_1.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ScrapBook</SourceId>
@@ -1097,6 +1115,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ab1576a8-c303-4a73-b142-26b5f2acfc33-imagesasdasadasas.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e1321f8c-1053-45cc-9232-50a051f187db-Screenshot_6.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ScrapBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ScrapBook</BasePath>
+      <RelativePath>uploads/e1321f8c-1053-45cc-9232-50a051f187db-Screenshot_6.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2hokd8uouu</Fingerprint>
+      <Integrity>Gho/uYyQVI/iEWIp7oHkFYI/P/aUn9MG5Y8wCB3TT/k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e1321f8c-1053-45cc-9232-50a051f187db-Screenshot_6.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e9e150c3-71f5-451f-9c18-2c181f58626a-Screenshot_4.png'))">
       <SourceType>Package</SourceType>

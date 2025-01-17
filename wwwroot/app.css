@@ -124,6 +124,70 @@ h1:focus {
     cursor: pointer;
 }
 
+/* Detailed journey modal overlay */
+.detailed-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+}
+
+/* Detailed journey modal content */
+.detailed-modal-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px; /* Make it more square-like */
+    max-height: 80%; /* Ensure it doesn't get too tall */
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: expandModal 0.3s ease-in-out;
+    position: relative;
+    text-align: center;
+}
+
+/* Close button specific to detailed journey modal */
+.detailed-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.detailed-close-button:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+/* Grid layout for images inside the detailed modal */
+.detailed-journey-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust size as necessary */
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Images in the detailed journey modal */
+.detailed-journey-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
 /* Modal background styling */
 .modal {
     position: fixed;

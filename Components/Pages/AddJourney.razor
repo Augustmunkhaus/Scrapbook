@@ -47,7 +47,10 @@
                         }
                     </ul>
                 </div>
-
+                @if (ValidationError != null)
+                {
+                    <p class="text-danger">@ValidationError</p>
+                }
                 <div class="d-grid gap-2">
                     <button type="submit" class="btn btn-primary"style="width: 150px; margin: auto;">Add Journey</button>
                 </div>
@@ -59,13 +62,14 @@
 @code {
     private Journey NewJourney = new Journey();
     private List<(string FileName, byte[] content)> UploadedFiles = new();
-
+    private string ValidationError;
     private async void HandleFileSelection(InputFileChangeEventArgs e)
     {
         foreach (var file in e.GetMultipleFiles())
         {
+            
             using var memoryStream = new MemoryStream();
-            await file.OpenReadStream().CopyToAsync(memoryStream);
+            await file.OpenReadStream(1500000).CopyToAsync(memoryStream);
 
             // Store file name and content as a tuple
             UploadedFiles.Add((file.Name, memoryStream.ToArray()));
@@ -74,6 +78,13 @@
     
     private async Task HandleValidSubmit()
     {
+        if (UploadedFiles.Count == 0)
+        {
+            ValidationError = "You must upload at least one image.";
+            return;
+        }
+        ValidationError = null;
+        
         // Add images to the journey
         foreach (var (fileName, content) in UploadedFiles)
         {
